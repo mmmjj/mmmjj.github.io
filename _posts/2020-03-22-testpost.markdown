@@ -18,9 +18,11 @@ view title
 
 PHOTO
 =======
-![직장인짤봇]({{ site.baseurl }}//assets/images/ILOVEWORK_TRUE_PHOTO.png)
+The content of this theme is distributed and licensed under a
+![ilovework_true]({{ site.baseurl }}/assets/images/ilovework_true.png)
 
+1. [링크선언도되구나][LINKED]
 
-1，[링크선언도되구나][LINKED]
+#도?
 
 [LINKED]: GOOGLE.COM/
