@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Title"
+categories: test
+tags: TAG1, TAG2, TAG3
+author: mmmjj
+description: description
+---
+
+view title
+============
+
+* 링크추가는 [링크](https://mmmjj.github.com).
+
+내용내용
+
+	이건박싱
+
+PHOTO
+=======
+![직장인짤봇]({{ site.baseurl }}//assets/images/ILOVEWORK_TRUE_PHOTO.png)
+
+
+1，[링크선언도되구나][LINKED]
+
+[LINKED]: GOOGLE.COM/
