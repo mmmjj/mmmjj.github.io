@@ -15,27 +15,29 @@ catalina.out 날짜별 생성을 위한 catalina.sh 수정
 
  Progress: catalina.sh에서 `touch "$CATALINA_OUT"` 검색 후 해당 쉘 내용 중 글쓴이 기준 461Line, 471Line의 ` >> "$CATALINA_OUT" 2>&1 "&"` 삭제 후 하단 테스트 스크립트 추가
 
-	| /usr/local/tomcat/bin/rotatelogs "$CATALINA_OUT".%Y-%m-%d 86400 540 & 
+	| ../tomcat/bin/rotatelogs "$CATALINA_OUT".%Y-%m-%d 86400 540 & 
 	
 * startup.sh 실행 시 log내용 출력됨.
 
-![catalina_1]({{ site.baseurl }}/assets/images/catalina_1.png)
+![catalina_1]({{ site.baseurl }}/assets/images/20200405/catalina_1.png)
 
 
-	"2>&1" \| /usr/local/tomcat/bin/rotatelogs $CATALINA_OUT.%Y-%m-%d.log 86400 540 &
+	"2>&1" \| ../tomcat/bin/rotatelogs $CATALINA_OUT.%Y-%m-%d.log 86400 540 &
 
 * 2020.04.03 테스트 진행 중
 
-![catalina_2]({{ site.baseurl }}/assets/images/catalina_2.png)
+![catalina_2]({{ site.baseurl }}/assets/images/20200405/catalina_2.png)
 
 
-	2>&1 "&" | /usr/local/tomcat/bin/rotatelogs "$CATALINA_OUT"-%Y-%m-%d.log 86400 540 &
+	2>&1 "&" | ../tomcat/bin/rotatelogs "$CATALINA_OUT"-%Y-%m-%d.log 86400 540 &
 
-![catalina_3]({{ site.baseurl }}/assets/images/catalina_3.png)
+![catalina_3]({{ site.baseurl }}/assets/images/20200405/catalina_3.png)
 
 
 	"2>&1" \| "$CATALINA_HOME"/bin/rotatelogs "'$CATALINA_OUT'.'%Y-%m-%d'.'log'" 86400 540 "&" # 540 for JST offset
 
-![catalina_4]({{ site.baseurl }}/assets/images/catalina_4.png)
+![catalina_4]({{ site.baseurl }}/assets/images/20200405/catalina_4.png)
 
-*result: 테스트 진행 중
+*result: 1일 1 catalina.out.날짜 파일 생성됨.
+
+![catalina_5]({{ site.baseurl }}/assets/images/20200405/catalina_5.png)
