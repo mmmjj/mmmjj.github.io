@@ -9,7 +9,7 @@ description: fix not connected internet.
 
  목적:<br>
 &nbsp;&nbsp;타팀에서 오전회의 끝나고 특정피시 하나가 인터넷이 안된다며 요청이 들어와서
- 컴퓨터기사로서 출동... 인터넷연결문제를 해결하자!<br>
+ 컴퓨터기사로서 출동... <br>인터넷연결문제를 해결하자!<br>
 
  환경: window7 pro
  
@@ -20,7 +20,6 @@ description: fix not connected internet.
     내근직은 데스크탑을 이용해 딱히 건들이지 않았어도 빠져있을수있으니 확인!
 <br><br><br>
 2. 컴퓨터 복구.
-
 
     모든사용자가 백업을 항상해두진 않지만... 업데이트 직후라면 업데이트 이전으로 돌리는 방법을 하면 된다.!
     ![stepTwo]({{ site.baseurl }}/assets/images/20210224/restore.jpg){: width="60%" }
