@@ -23,7 +23,7 @@ description: fix not connected internet.
 
     모든사용자가 백업을 항상해두진 않지만... 업데이트 직후라면 업데이트 이전으로 돌리는 방법을 하면 된다.!
  
-    ![stepTwo]({{ site.baseurl }}/assets/images/20210224/restore.jpg){: width="60%" }
+    ![stepTwo]({{ site.baseurl }}/assets/images/20210224/restore_.jpg){: width="60%" }
  <br><br><br>
 3. ipconfig로 현재 ip확인 후 대처
 
