@@ -9,7 +9,7 @@ description: fix not connected internet.
 
  목적:<br>
 &nbsp;&nbsp;타팀에서 오전회의 끝나고 특정피시 하나가 인터넷이 안된다며 요청이 들어와서
- 컴퓨터기사로서 출동....<br>
+ 컴퓨터기사로서 출동... 인터넷연결문제를 해결하자!<br>
 
  환경: window7 pro
  
