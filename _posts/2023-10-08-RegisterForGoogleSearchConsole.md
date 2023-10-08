@@ -21,6 +21,7 @@ description: 구글 검색결과에 블로그 글 노출하기
 
 ##### 1. 블로그주소/sitemap.xml 확인
 운영 환경에 맞게 sitemap.xml을 추가합니다(jekyll 플러그인, 수동 등등)
+<br>
 ![sitemapxml]({{ site.baseurl }}/assets/images/20231008/sitemapxml.png){: width="60%" }
 <br><br>
 
