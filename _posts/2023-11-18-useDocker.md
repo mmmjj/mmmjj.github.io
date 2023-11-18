@@ -9,7 +9,7 @@ description: docker 다운로드, 사용하기
 ---
 
 #### 목적
-* 2023.11.08    : docker desktop 로컬에 설치하고 도커이미지를 실행시켜보자
+* 2023.11.18    : docker desktop 로컬에 설치하고 도커이미지를 실행시켜보자
 <br><br>
 
 #### 환경
